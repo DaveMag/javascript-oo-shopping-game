@@ -241,7 +241,6 @@ function loadMasterData() {
   if (pro != null && pro.length > 0 && mpro != null && mpro.length > 0) {
     productsList = pro.concat(mpro);
   }
-
   return productsList;
 }
 
